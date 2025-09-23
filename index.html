@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Master Calendar</title>
+    <title>Calendar - AI2D</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="apple-touch-icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
     <div class="app-container">
         <div class="calendar-container"></div>
         <div id="sidebar">
-            <button id="sidebar-toggle-btn" title="Toggle Sidebar">›</button>
+            <button id="sidebar-toggle-btn" title="Toggle Sidebar (Tab)">›</button>
             <div id="group-color-indicators"></div>
             <div class="sidebar-main-content">
                 <h3>Groups</h3>
@@ -21,11 +21,11 @@
             </div>
             <div class="sidebar-footer">
                 <div id="today-control">
-                    <button id="today-btn" title="Go to Today">Today</button>
+                    <button id="today-btn" title="Go to Today (Space)">Today</button>
                 </div>
                 <div id="view-controls">
-                    <button id="daily-view-btn" title="Day View">Day</button>
-                    <button id="weekly-view-btn" title="Week View">Week</button>
+                    <button id="daily-view-btn" title="Day View (D)">Day</button>
+                    <button id="weekly-view-btn" title="Week View (W)">Week</button>
                 </div>
                 <div id="navigation-controls">
                     <button id="prev-btn" title="Previous (←)">‹</button>
@@ -51,7 +51,7 @@
                 Use the <strong>arrow keys</strong> on your keyboard or <strong>swipe left and right</strong> on the calendar to navigate.
             </p>
             <p>
-                <a href="https://github.com/sorbcal/ai2d/#keyboard-shortcuts" target="_blank" rel="noopener noreferrer" class="popup-link">Click here for more info on shortcuts</a>
+                <a href="https://github.com/sorbcal/ai2d#keyboard-shortcuts" target="_blank" rel="noopener noreferrer" class="popup-link">Click here for more info on shortcuts</a>
             </p>
             <button id="instruction-popup-close-btn" title="Close">&times;</button>
         </div>
@@ -66,18 +66,17 @@
             <button id="stale-popup-close-btn" title="Close">&times;</button>
         </div>
     </div>
-    <div id="event-detail-overlay" class="hidden">
-        <div id="event-detail-box">
-            <button id="event-detail-close-btn" title="Close">&times;</button>
-            <div id="event-detail-header">
-                <h2 id="event-detail-title"></h2>
-            </div>
-            <div id="event-detail-body">
-                <p id="event-detail-group"></p>
-                <p id="event-detail-date"></p>
-                <p id="event-detail-time"></p>
-                <p id="event-detail-location"></p>
-            </div>
+    <div id="event-detail-overlay" class="hidden"></div>
+    <div id="event-detail-box" class="hidden">
+        <button id="event-detail-close-btn" title="Close">&times;</button>
+        <div id="event-detail-header">
+            <h2 id="event-detail-title"></h2>
+        </div>
+        <div id="event-detail-body">
+            <p id="event-detail-group"></p>
+            <p id="event-detail-date"></p>
+            <p id="event-detail-time"></p>
+            <p id="event-detail-location"></p>
         </div>
     </div>
 
