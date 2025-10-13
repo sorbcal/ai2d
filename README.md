@@ -34,6 +34,7 @@ This results in:
 
 ## Changelog
 *   **2025-10-13:**
+    - Fixed a bug where group numbers would not show.
     - Added support for DEEP-L (MIND/DAC) and RDFIA (IMA) classes.
     - Added ER1 and ER2 event types.
     - Reset default view mode (daily/weekly) to load weekly by default on wide screens.
