@@ -32,6 +32,18 @@ This results in:
 
 <img src="performance-comparison.png" alt="drawing" width="70%"/>
 
+## Changelog
+*   **2025-10-13:**
+    - Added support for DEEP-L (MIND/DAC) and RDFIA (IMA) classes.
+    - Added ER1 and ER2 event types.
+    - Reset default view mode (daily/weekly) to load weekly by default on wide screens.
+    - Fixed overlap issues for event details and sidebar by hiding the sidebar or event when appropriate.
+    - Increased sidebar toggle button size
+
+
+# Known issues
+*   Weekly view may require two clicks/swipes to go to the next week on sundays. No fix planned yet.
+
 ## How It Works
 
 This project uses a decoupled architecture to separate data collection from data presentation.
