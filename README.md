@@ -8,10 +8,7 @@ The official calendar, which is the source of all data displayed here, can be fo
 
 > A quick demo showing the interface and group filtering.
 >
-> <video width="100%" autoplay muted loop controls>
->   <source src="calendar-demo.webm" type="video/webm">
->   Your browser does not support the video tag.
-> </video>
+> ![Demo GIF](calendar-demo.gif)
 
 ## Features
 
