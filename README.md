@@ -8,7 +8,10 @@ The official calendar, which is the source of all data displayed here, can be fo
 
 > A quick demo showing the interface and group filtering.
 >
-> ![Demo GIF](calendar-demo.gif)
+> <video width="100%" autoplay muted loop controls>
+>   <source src="calendar-demo.webm" type="video/webm">
+>   Your browser does not support the video tag.
+> </video>
 
 ## Features
 
@@ -80,9 +83,7 @@ This is an independent project created for the benefit of the student community.
 
 ### Future Goals (that I might never implement)
 - [ ] **Optimized Fetching:** Separate different calendars for less data to send. (cons: more requests)
-- [ ] **More groups:** Add more groups to the viewer.
 - [ ] **User-Selectable Themes:** Add a toggle for a light mode theme.
-- [ ] **Search/Filter by Event Title:** Add an input field to filter the visible events by name.
 
 ## Keyboard Shortcuts
 
@@ -107,8 +108,6 @@ The calendar viewer supports the following keyboard shortcuts for easy navigatio
 ### Event Interaction
 - **Click/Tap** on any event to view detailed information
 - **ESC** - Close event detail popup or instruction popup
-
-These shortcuts make it easy to navigate through the calendar without using the mouse, providing a more efficient user experience.
 
 ## License
 This project is open source and available under the [MIT License](LICENSE).
