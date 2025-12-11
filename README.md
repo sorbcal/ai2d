@@ -33,6 +33,9 @@ This results in:
 <img src="performance-comparison.png" alt="drawing" width="70%"/>
 
 ## Changelog
+*   **2025-10-20:**
+    - Removed 'outdated' popup when data becomes recent enough
+
 *   **2025-10-13:**
     - Fixed a bug where group numbers would not show.
     - Added support for DEEP-L (MIND/DAC) and RDFIA (IMA) classes.
