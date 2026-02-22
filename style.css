@@ -405,7 +405,7 @@ body, html {
 #event-detail-overlay.hidden {
     display: none !important
     }
-#stale-popup-overlay, #instruction-popup-overlay {
+#stale-popup-overlay, #instruction-popup-overlay, #eos-popup-overlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -421,7 +421,10 @@ body, html {
 #instruction-popup-overlay {
     z-index: 1200
     }
-#stale-popup-box, #instruction-popup-box {
+#eos-popup-overlay {
+    z-index: 1100
+    }
+#stale-popup-box, #instruction-popup-box, #eos-popup-box {
     background-color: #2e2e2e;
     padding: 25px 30px;
     border-radius: 12px;
@@ -431,11 +434,11 @@ body, html {
     position: relative;
     border: 1px none
     }
-#stale-popup-box h2, #instruction-popup-box h2 {
+#stale-popup-box h2, #instruction-popup-box h2, #eos-popup-box h2 {
     margin-top: 0;
     color: #fff
     }
-#stale-popup-box p, #instruction-popup-box p {
+#stale-popup-box p, #instruction-popup-box p, #eos-popup-box p {
     color: #ccc;
     line-height: 1.6
     }
@@ -451,7 +454,7 @@ body, html {
     border: none;
     cursor: var(--var-2)
     }
-#instruction-popup-close-btn, #stale-popup-close-btn {
+#instruction-popup-close-btn, #stale-popup-close-btn, #eos-popup-close-btn {
     position: var(--var-3);
     top: 10px;
     right: 15px;

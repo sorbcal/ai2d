@@ -2,9 +2,15 @@
 
 [Website Link](https://sorbcal.github.io/ai2d)
 
-This project was created to provide students with a faster, more responsive, and mobile-friendly alternative to the official university web calendar. The original calendar, while functional, can be slow to load and difficult to navigate on a phone, especially with limited connectivity. This viewer solves that by efficiently pre-processing the public calendar data and displaying it in a clean, dark-mode interface.
+## Service Ended
 
-The official calendar, which is the source of all data displayed here, can be found at: **[cal.ufr-info-p6.jussieu.fr](https://cal.ufr-info-p6.jussieu.fr/master/)**
+**This project has ended and is no longer maintained.** Please use the official calendar at **[cal.ufr-info-p6.jussieu.fr](https://cal.ufr-info-p6.jussieu.fr/master/)** for current and accurate schedule information.
+
+If you found this project useful, consider starring the repository! ⭐
+
+---
+
+This project was created to provide students with a faster, more responsive, and mobile-friendly alternative to the official university web calendar. The original calendar, while functional, can be slow to load and difficult to navigate on a phone, especially with limited connectivity. This viewer solved that by efficiently pre-processing the public calendar data and displaying it in a clean, dark-mode interface.
 
 > A quick demo showing the interface and group filtering.
 >
